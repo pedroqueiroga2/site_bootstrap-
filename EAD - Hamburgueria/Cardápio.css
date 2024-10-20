@@ -1,9 +1,62 @@
 header, body, footer
 {
 
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .bordas
 {
     border-top: 10px solid beige;
+}
+.Titulo
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 40;
+    font-style: italic;
+    font-family: cursive;
+    
+}
+
+.coluna
+{
+    border: 2px solid white;
+    
+}
+.pagar
+{
+    
+    margin-top: 50px;
+    border: 2px solid #f8f8d2;
+    background-color: beige;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 20;
+}
+.pagar:hover
+{
+    background-color: rgb(185, 185, 161);
+}
+.titolo
+{
+    color: azure;
+    font-size: 30;
+    font-style: italic;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.descricao
+{
+    
+    color: azure;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col
+{
+    margin-top:20px ;
+}
+.ajusteimg
+{
+    margin-top: 10px;
 }

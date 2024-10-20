@@ -1,0 +1,54 @@
+header, body, footer
+{
+    background-color: black;
+}
+.bordas
+{
+    border-top: 10px solid beige;
+}
+
+main
+{
+    display: flex;                   /* Ativa o Flexbox no corpo */
+    justify-content: center;         /* Centraliza horizontalmente */
+    align-items: center;             /* Centraliza verticalmente */
+}
+
+.margem{
+    display: flex;                   
+    justify-content: center;         
+    align-items: center;             
+
+    width: 1000px;           /* Largura do quadrado */
+    height: 780px;          /* Altura do quadrado (igual à largura) */
+    background-color: beige; /* Cor de fundo do quadrado */
+    
+    margin-top: 50px;
+}
+.layout
+{
+    width: 940px;           
+    height: 705px;          
+    background-color: rgb(251, 251, 235); 
+}
+.titulo
+{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.primeiro-paragrafo, .segundoparagrafo, .terceiroparagrafo{
+    
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 22;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.imagem img{
+    width: 80px;
+    height: 90px;
+    margin-left: 90%;
+    margin-bottom: 100%;
+}

@@ -1,5 +1,6 @@
 header, body, footer
 {
+
     background-color: black;
 }
 .bordas
@@ -51,4 +52,19 @@ main
     height: 90px;
     margin-left: 90%;
     margin-bottom: 100%;
+}
+.botaoformat
+{
+    margin-left: 40%;
+    margin-top: 80px;
+    border: 10px solid #f8f8d2;
+    background-color: beige;
+    border-radius: 5px;
+}
+.texto
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 40;
+    text-decoration: none;  /* Remove o sublinhado do link */
 }

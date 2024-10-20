@@ -1,0 +1,9 @@
+header, body, footer
+{
+
+    background-color: black;
+}
+.bordas
+{
+    border-top: 10px solid beige;
+}

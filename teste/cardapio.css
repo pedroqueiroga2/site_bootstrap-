@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@font-face {
+    font-family: 'chineseRocks';
+    src: url(chinese_rocks_rg.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.navlist
+{
+    gap: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0, 0, 0, .9)
+    
+}
+.list
+{
+    
+    gap: 10px;
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+   
+}
+.list_item
+{
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10% 15%;
+    display: flex;
+    align-items:  center ;
+
+}
+.list_item:hover
+{
+    background-color: rgb(250, 218, 177, .10)
+}
+.list_item a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+.list_item a:active
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+.list_item_img
+{
+    height: 25px;
+    
+}
+.b
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.i
+{
+    width:50px;
+    height: 50px;
+}
+header
+{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+.quadrado
+{
+    border: 1px solid rgb(255, 255, 255);
+    width: 90%;
+    height: 700px;
+    margin-top: 80px;
+    margin-left: 5%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.quadradomenor
+{
+    border: 2px solid rgb(255, 202, 55);
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    
+}
+.imagemquadrado
+{
+    
+    height: 160px;
+    width: 250px;
+}
+.imagemquadrado img
+{
+    width: 100%;
+    height: 100%;
+}
+.texto
+{
+    color: white;
+    height: 100px;
+    width: 250px;
+    overflow: hidden;
+}
+.pagamento
+{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid rgb(255, 202, 55);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 202, 55);
+    padding: 2px 5px 2px 5px;
+    
+}
+.pagamento:hover
+{
+    background-color: rgb(255, 202, 55, .9);;
+}
+.cardapio
+{
+    font-family: "chineseRocks", sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mar
+}
